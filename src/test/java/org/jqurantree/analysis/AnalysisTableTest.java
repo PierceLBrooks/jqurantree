@@ -109,8 +109,8 @@ public class AnalysisTableTest {
 		text.append("1 16 4\r\n");
 		text.append("1 15 3\r\n");
 		text.append("1 21 2\r\n");
-		text.append("2 18 2\r\n");
 		text.append("2 15 2\r\n");
+		text.append("2 18 2\r\n");
 		text.append("1 17 2\r\n");
 		text.append("2 17 1\r\n");
 		assertEquals(text.toString(), groupTable.toString());
@@ -150,11 +150,11 @@ public class AnalysisTableTest {
 		text.setLength(0);
 		text.append("N Count\r\n");
 		text.append("- -----\r\n");
-		text.append("M 3\r\n");
 		text.append("J 3\r\n");
-		text.append("A 2\r\n");
+		text.append("M 3\r\n");
 		text.append("P 2\r\n");
-		text.append("L 2\r\n");
+		text.append("A 2\r\n");
+		text.append("H 2\r\n");
 		assertEquals(text.toString(), groupTable.toString(5));
 	}
 }

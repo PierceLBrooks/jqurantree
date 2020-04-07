@@ -39,9 +39,9 @@ Tatweel                         495
 SmallLowMeem                    99
 SmallHighUprightRectangularZero 66
 SmallHighSeen                   2
+EmptyCentreLowStop              1
 SmallLowSeen                    1
 SmallHighNoon                   1
 RoundedHighStopWithFilledCentre 1
-EmptyCentreLowStop              1
 EmptyCentreHighStop             1
 
